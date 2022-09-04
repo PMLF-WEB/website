@@ -1,0 +1,34 @@
+body {
+    direction: rtl;
+}
+
+.header {
+    background-color: #3A86FF;
+    width: 100%;
+}
+
+.title {
+    color: #FFFFFF;
+}
+
+@media (pointer:fine) {
+    .header {
+        height: 150px;
+    }
+    
+    .header img {
+        width: 100px;
+        height: 100px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .title {
+        margin-right: 150px;
+        margin-top: -110px;
+    }
+}
+
+@media (pointer:coarse) {
+    
+}
